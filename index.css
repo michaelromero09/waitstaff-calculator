@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+body {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  display: inline-block;
+  width: 980px;
+}
+
+.column {
+  width: 400px;
+  margin: 20px;
+  vertical-align: top;
+  text-align: center;
+  display: inline-block;
+}
+
+.left-column {
+  border: 2px solid black;
+}
+
+button, input[type="text"] {
+  margin: 10px 0px;
+  padding: 5px;
+}
+
+label {
+  width: 210px;
+  display: inline-block;
+  text-align: right;
+}
+
+.customer-charges, .my-earnings-info {
+  margin-bottom: 10px;
+  height: 200px;
+  width: 100%;
+  border: 2px solid black;
+}
